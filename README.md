@@ -21,7 +21,7 @@ To navigate through the overview of different contracts, utilize the toggle feat
 
 <details>
     <summary>CrowdFund</summary>
-
+<br>
  **`Campaign`** is a struct that represents a campaign and has the following fields: 
 
 - **`id`**: A unique identifier for the campaign, represented as a UID.
