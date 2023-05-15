@@ -20,8 +20,8 @@ This library includes several functions that can be used to implement various DA
 To navigate through the overview of different contracts, utilize the toggle feature. Please note that the additional contracts will be incorporated at a later stage.
 
 <details>
-    <summary>CrowdFund</summary>
-<br>
+    <summary>CrowdFund</summary> 
+    
  **`Campaign`** is a struct that represents a campaign and has the following fields: 
 
 - **`id`**: A unique identifier for the campaign, represented as a UID.
