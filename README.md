@@ -22,8 +22,6 @@ To navigate through the overview of different contracts, utilize the toggle feat
 <details>
     <summary>CrowdFund</summary>
 
-
-
  **`Campaign`** is a struct that represents a campaign and has the following fields: 
 
 - **`id`**: A unique identifier for the campaign, represented as a UID.
@@ -122,7 +120,6 @@ public entry fun refund(campaign: &mut Campaign, clock: &Clock, ctx: &mut TxCont
 If the function succeeds, it will update the donors field of the campaign to reflect the refund and emit a **`Refund`** event.
 
 </details>
-<br>
 
 ## **Contract Compilation & Testing**
 
