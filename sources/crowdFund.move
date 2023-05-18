@@ -1,7 +1,11 @@
 module dao::crowdFund{
 
     /*
-    In the event that the campaign attains or surpasses its targeted goal, the campaign's owner will be granted the gathered funds once the campaign concludes. The campaign's conclusion is mandated to be within 90 days from the present time. Conversely, if the total amount of funds amassed falls below the goal after the conclusion of the campaign, then the supporters who made contributions to the campaign will be entitled to a refund.
+    In the event that the campaign attains or surpasses its targeted goal, 
+    the campaign's owner will be granted the gathered funds once the campaign concludes. 
+    The campaign's conclusion is mandated to be within 90 days from the present time. 
+    Conversely, if the total amount of funds amassed falls below the goal after the conclusion of the campaign, 
+    then the supporters who made contributions to the campaign will be entitled to a refund.
     */
 
     use sui::object::{Self, ID, UID};
