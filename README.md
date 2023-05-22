@@ -150,4 +150,4 @@ To deploy the smart contract, please follow these steps:
 
 ## **Usage**
 
-The contract is designed to be used in conjunction with a user interface, such as a web application. When a user performs an action on their to-do list, such as adding or editing a task, the user interface should call the corresponding function on the smart contract.
+The contract is designed to be used in conjunction with a user interface, such as a web application. When a user performs an action, the user interface should call the corresponding function on the smart contract.
